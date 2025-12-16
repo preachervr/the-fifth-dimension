@@ -38,11 +38,13 @@
   --color-admiralnavy-900: oklch(18.5% 0.044 262.6);
   --color-admiralnavy-950: oklch(13.9% 0.025 258.5);
   --animate-scroll: scroll 30s linear infinite;
+  
   @keyframes scroll {
     0% { transform: translateX(0); }
     100% { transform:  translateX(-50%); }
   }
 }
+
 
 .animate-scroll {
     display: flex;
