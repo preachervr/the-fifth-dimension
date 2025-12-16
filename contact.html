@@ -83,8 +83,8 @@
           </div>
         </nav>
         <div>
-          <button id="btnMenu" class="flex md:hidden" aria-label="Navigation Menu" aria-expanded="false"><svg aria-hidden="true" class="w-7 h-7 fill-admiralnavy-900 hover:fill-midastouch-200 transition-all 
-            duration-200 z-5 cursor-pointer"><use href="#menu"></use></svg></button>
+          <button id="btnMenu" class="flex md:hidden" aria-label="Navigation Menu" aria-expanded="false" aria-controls="sidebar"><svg aria-hidden="true" class="w-7 h-7 fill-admiralnavy-900 hover:fill-midastouch-200 
+            transition-all duration-200 z-5 cursor-pointer"><use href="#menu"></use></svg></button>
         </div>
       </section>
       <div id="sidebar" class="fixed inset-0 z-6 pointer-events-none opacity-0 transition-opacity duration-300"> 
@@ -113,123 +113,68 @@
         </aside>
       </div>
     </header>
-    <main class="flex flex-col w-full leading-relaxed pb-4 md:pb-8 lg:pb-16 gap-4 md:gap-6 lg:gap-10">
-      <section class="flex flex-col gap-2 md:gap-4 md:gap-5 lg:gap-6 mx-auto">
-        <h1 class="text-xl md:text-2xl lg:text-3xl text-midastouch-900 font-bold font-prata self-center">Pricing is a Negotiation with Time</h1>
-        <p class="text-admiralnavy-900 text-left md:text-justify max-w-4xl">Our process is a commitment to the entire cinematic journey, not a calculation of clock-time. We do not charge by the hour; we operate on a 
-          full-project commission model. Every price reflects the deep creative development, the technical crew required for narrative depth, and the meticulous post-production needed to ensure that every final 
-          deliverable—whether film or photograph—is a verified masterpiece. You are not buying a service; you are investing in a timeless visual legacy.</p>
-      </section>
-      <section class="flex flex-col px-8 md:px-32 lg:px-48 gap-2 md:gap-4 md:gap-5 lg:gap-6 mx-auto">
-        <h2 class="text-xl md:text-2xl lg:text-3xl font-bold self-center text-midastouch-900 font-prata">The Core Offerings</h2>
-        <article class="grid grid-cols 1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-12 pb-2 md:pb-4 lg:pb-8 mx-auto">
-          <div class="flex flex-col gap-2 md:gap-4 lg:gap-6 bg-admiralnavy-900 text-midastouch-50 p-4 md:p-6 lg:p-8 rounded-3xl hover:shadow-2xl shadow-midastouch-900 transition-all duration-300">
-            <svg aria-hidden="true" class="w-10 h-10 fill-midastouch-700 self-center"><use href="#I"></use></svg>
-            <h3 class="text-base md:text-xl lg:text-2xl text-midastouch-700 text-left md:text-center font-prata font-semibold">The Essence</h3>
-            <div>
-              <p><span class="font-medium text-midastouch-700 font-prata">Focus: </span>Clean Visual Storytelling</p>
-              <p><span class="font-medium text-midastouch-700 font-prata">Hours: </span>Up to <strong>6 Hours</strong> of Coverage</p>
-              <p><span class="font-medium text-midastouch-700 font-prata">Personnel </span>Lead Cinematographer Only</p>
-              <p><span class="font-medium text-midastouch-700 font-prata">Deliverables: </span>5-7 Minute Highlight Film</p>
-              <p><span class="font-medium text-midastouch-700 font-prata">Raw Assets: </span>Optional Add-on</p>
-              <p><span class="font-medium text-midastouch-700 font-prata">Pricing: </span>Starting at $4,800</p>
-             <button class="px-4 py-2 md:px-6 md:py-3 bg-midastouch-950 text-midastouch-50 font-semibold rounded-3xl font-prata 
-            cursor-pointer tracking-wide hover:bg-midastouch-800 active:bg-midastouch-700 transition-all duration-300 mt-2" aria-label="Reserve Tier 1">Reserve The Essence</button>
-            </div>
+    <main class="flex flex-col w-full leading-relaxed py-6 md:py-12 lg:py-18 gap-4 md:gap-6 lg:gap-10">
+      <section class="grid grid-cols 1 lg:grid-cols-3 px-8 md:px-12 lg:px-16 mx-auto gap-4 md:gap-10 lg:gap-16">
+        <article class="lg:gol-span-1 flex flex-col gap-4 md:gap-6 lg:gap-8">
+          <h2 class="font-prata text-xl md:text-2xl lg:text-3xl">Direct Connect</h2>
+          <div>
+            <h3 class="text-midastouch-900 text-lg md:text-xl lg:text-2xl">Studio Locations</h3>
+            <p>Los Angeles, CA (Base)</p>
+            <p>New York, NY (Satelite)</p>
+            <p>Londong, UK (International Desk)</p>
           </div>
-          <div class="flex flex-col gap-2 md:gap-4 lg:gap-6 bg-admiralnavy-900 text-midastouch-50 p-4 md:p-6 lg:p-8 rounded-3xl hover:shadow-2xl shadow-midastouch-900 transition-all duration-300">
-            <div class="flex justify-center items-center">
-              <svg aria-hidden="true" class="w-10 h-10 fill-midastouch-700 self-center"><use href="#I"></use></svg>
-              <svg aria-hidden="true" class="w-10 h-10 fill-midastouch-700 self-center -ml-4"><use href="#I"></use></svg>
-            </div>
-            <h3 class="text-base md:text-xl lg:text-2xl text-midastouch-700 text-left md:text-center font-prata font-semibold">Commission The Sovereign</h3>
-            <div>
-              <p><span class="font-medium text-midastouch-700 font-prata">Focus: </span>Comprehensive Narrative & Edit</p>
-              <p><span class="font-medium text-midastouch-700 font-prata">Hours: </span>Up to <strong>10 Hours</strong> of Coverage</p>
-              <p><span class="font-medium text-midastouch-700 font-prata">Personnel </span>Lead + Dedicated Assistant</p>
-              <p><span class="font-medium text-midastouch-700 font-prata">Deliverables: </span>8-12 Minute Feature Film + Teaser</p>
-              <p><span class="font-medium text-midastouch-700 font-prata">Raw Assets: </span>Included (Curated Collection)</p>
-              <p><span class="font-medium text-midastouch-700 font-prata">Pricing: </span>Starting at $7,950</p>
-             <button class="px-4 py-2 md:px-6 md:py-3 bg-midastouch-950 text-midastouch-50 font-semibold rounded-3xl font-prata 
-            cursor-pointer tracking-wide hover:bg-midastouch-800 active:bg-midastouch-700 transition-all duration-300 mt-2" aria-label="Reserve Tier 2">Commission The Sovereign</button>
-            </div>
+          <div>
+            <h3 class="text-midastouch-900 text-lg md:text-xl lg:text-2xl">General Inquiry</h3>
+            <a href="mailto:consultation@fifthdimension.com" class="hover:text-midastouch-500 transition-colors duration-200">
+                    consultation@fifthdimension.com</a>
           </div>
-          <div class="flex flex-col gap-2 md:gap-4 lg:gap-6 bg-admiralnavy-900 text-midastouch-50 p-4 md:p-6 lg:p-8 rounded-3xl hover:shadow-2xl shadow-midastouch-900 transition-all duration-300">
-             <div class="flex justify-center items-center">
-              <svg aria-hidden="true" class="w-10 h-10 fill-midastouch-700 self-center"><use href="#I"></use></svg>
-              <svg aria-hidden="true" class="w-10 h-10 fill-midastouch-700 self-center -ml-4"><use href="#I"></use></svg>
-              <svg aria-hidden="true" class="w-10 h-10 fill-midastouch-700 self-center -ml-4"><use href="#I"></use></svg>
-            </div>
-            <h3 class="text-base md:text-xl lg:text-2xl text-midastouch-700 text-left md:text-center font-prata font-semibold">The Epicenter</h3>
-            <div>
-              <p><span class="font-medium text-midastouch-700 font-prata">Focus: </span>Full-Scope, Multi-Day Cinematography</p>
-              <p><span class="font-medium text-midastouch-700 font-prata">Hours: </span>Up to <strong>14 Hours</strong> of Coverage</p>
-              <p><span class="font-medium text-midastouch-700 font-prata">Personnel </span>Two Cinematographers + Assistant</p>
-              <p><span class="font-medium text-midastouch-700 font-prata">Deliverables: </span>15-20 Minute Director's Cut + Full Edits</p>
-              <p><span class="font-medium text-midastouch-700 font-prata">Raw Assets: </span>Full Raw Footage Archive Included</p>
-              <p><span class="font-medium text-midastouch-700 font-prata">Pricing: </span>Starting at $12,500</p>
-             <button class="px-4 py-2 md:px-6 md:py-3 bg-midastouch-950 text-midastouch-50 font-semibold rounded-3xl font-prata 
-            cursor-pointer tracking-wide hover:bg-midastouch-800 active:bg-midastouch-700 transition-all duration-300 mt-2" aria-label="Reserve Tier 3">Secure The Epicenter</button>
-            </div>
-          </div>
+          <p class="mt-4 italic text-sm text-gray-500">
+                — Please allow 24-48 hours for a detailed response. —
+            </p>
         </article>
-      </section>
-      <section class="flex flex-col items-center bg-admiralnavy-900 text-midastouch-50 py-16 md:py-24 lg:py-32 px-4 md:px-8 lg:px-16 gap-4 md:gap-6 lg:gap-8">
-        <h2 class="text-3xl md:text-5xl lg:text-7xl font-prata font-semibold uppercase tracking-widest text-midastouch-700">The Fifth Dimension</h2>
-        <p class="text-2xl md:text-3xl lg:text-4xl font-medium text-midastouch-500">Bespoke Commission</p>
-        <p class="text-lg md:text-xl lg:text-2xl leading-relaxed text-warmcanvas-300 text-center">For productions that defy definition, spanning multiple locations, requiring drone crews, custom VFX, and 
-          international travel. This tier guarantees creative collaboration from concept development through final delivery</p>
-        <a href="#contact" class="inline-block px-12 py-4 text-xl md:text-2xl font-bold uppercase tracking-wider bg-midastouch-700 hover:bg-midastouch-500 active-midastouch-300 text-admiralnavy-900 rounded-full 
-        shadow-xl active:bg-midastouch-300 hover:shadow-xl transition-all duration-300">Initiate Consultation</a>
-        <p class="mt-4 text-base italic text-warmcanvas-300">— Price upon detailed scope analysis —</p>
-      </section>
-      <section class="flex flex-col max-w-4xl mx-auto gap-2 md:gap-3 lg:gap-4">
-        <h2 class="text-xl md:text-2xl lg:text-3xl font-bold self-center text-midastouch-900 font-prata">The Comission Fine Print</h2>
-        <dl class="space-y-8">
-          <div>
-            <dt class="text-xl font-bold text-admiralnavy-700 border-b border-warmcanvas-300 pb-2">Q: What if my event eceeds the listed hours?</dt>
-            <dd class="text-lg leading-relaxed ">A: Additional coverage is priced at a rate of $175–$250 per hour, per crew member. This ensures that overage time maintains the same level of quality and focused 
-              production.</dd>
-          </div>
-          <div>
-            <dt class="text-xl font-bold text-admiralnavy-700 border-b border-warmcanvas-300 pb-2">Q: Do you travel internationally?</dt>
-            <dd class="text-lg leading-relaxed ">A: Yes. All packages are subject to travel and accommodation stipends outside of our base cities.</dd>
-          </div>
-          <div>
-            <dt class="text-xl font-bold text-admiralnavy-700 border-b border-warmcanvas-300 pb-2">Q: What is your payment schedule?</dt>
-            <dd class="text-lg leading-relaxed ">A: A 30% retainer is required to secure the date. The remainder is due 30 days prior to the production date.</dd>
-          </div>
-          <div>
-            <dt class="text-xl font-bold text-admiralnavy-700 border-b border-warmcanvas-300 pb-2">Q: What format are the final films delivered in?</dt>
-            <dd class="text-lg leading-relaxed ">A: All films are delivered in high-bitrate 4K (UHD) resolution using a professional codec optimized for both online sharing and archival quality. We prioritize 
-              long-term fidelity for your visual legacy.</dd>
-          </div>
-          <div>
-            <dt class="text-xl font-bold text-admiralnavy-700 border-b border-warmcanvas-300 pb-2">Q: Do I receive all the raw footage?</dt>
-            <dd class="text-lg leading-relaxed ">A: Raw footage delivery is standard for our Sovereign and Epicenter commission tiers. For the Essence tier, the complete, unedited archive is available as a 
-              professional add-on.</dd>
-          </div>
-          <div>
-            <dt class="text-xl font-bold text-admiralnavy-700 border-b border-warmcanvas-300 pb-2">Q: Who owns the copyright to the final delivered film?</dt>
-            <dd class="text-lg leading-relaxed ">A: <span class="font-semibold">The Fifth Dimension</span> retains the copyright and license to use the film for promotional and portfolio purposes. However, you 
-              receive a perpetual, non-exclusive license to use the final film for all your personal, non-commercial needs. Commercial licensing terms are negotiated separately.</dd>
-          </div>
-          <div>
-            <dt class="text-xl font-bold text-admiralnavy-700 border-b border-warmcanvas-300 pb-2">Q: How much input do I have on the final edit?</dt>
-            <dd class="text-lg leading-relaxed ">A: We view this as a collaboration. Our contracts include a structured revision stage where you can provide feedback on the first draft. This ensures the final film 
-              aligns with your vision while maintaining our cinematic quality standards.</dd>
-          </div>
-          <div>
-            <dt class="text-xl font-bold text-admiralnavy-700 border-b border-warmcanvas-300 pb-2">Q: Can I choose the music for my film?</dt>
-            <dd class="text-lg leading-relaxed ">A: We curate all music from premium, cinematic music licensing libraries to ensure the legality and emotional resonance of the final film. While we welcome genre and 
-              style input, the final track selection is handled by our creative team to ensure full licensing compliance.</dd>
-          </div>
-          <div>
-            <dt class="text-xl font-bold text-admiralnavy-700 border-b border-warmcanvas-300 pb-2">Q: How long does the post-production process take?</dt>
-            <dd class="text-lg leading-relaxed ">A: Due to our commitment to detailed, custom editing and color grading, the final delivery timeframe is typically 12–16 weeks from the final production date. A short 
-              teaser or trailer is often delivered within the first 4 weeks.</dd>
-          </div>
-        </dl>
+        <article class="lg:col-span-2 flex flex-col gap-4 md:gap-6 lg:gap-8 bg-white shadow-xl rounded-lg p-8 md:p-12">
+          <h2 class="font-prata text-midastouch-900 text-xl md:text-2xl lg:text-3xl">Consultation Request</h2>
+          <form action="#" method="POST" class="space-y-6">
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <input type="text" name="name" placeholder="Full Name" required 
+                           class="w-full border-b-2 border-admiralnavy-900 focus:border-midastouch-500 bg-transparent py-3 placeholder-gray-500 focus:outline-none transition">
+                    <input type="email" name="email" placeholder="Email Address" required 
+                           class="w-full border-b-2 border-admiralnavy-900 focus:border-midastouch-500 bg-transparent py-3 placeholder-gray-500 focus:outline-none transition">
+                </div>
+
+                <div>
+                    <select name="project_type" required 
+                            class="w-full border-b-2 border-admiralnavy-900 focus:border-midastouch-500 bg-transparent py-3 text-gray-500 focus:outline-none transition">
+                        <option value="" disabled selected hidden>Project Type / Commission Focus</option>
+                        <option value="bespoke">Bespoke Commission (The Fifth Dimension)</option>
+                        <option value="epicenter">The Epicenter Tier</option>
+                        <option value="sovereign">The Sovereign Tier</option>
+                        <option value="essence">The Essence Tier</option>
+                        <option value="general">General Commercial Inquiry</option>
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <input type="text" name="timeline" placeholder="Desired Timeline (e.g., Q3 2026, Next Month)" 
+                           class="w-full border-b-2 bborder-admiralnavy-900 focus:border-midastouch-500 bg-transparent py-3 placeholder-gray-500 focus:outline-none transition">
+                    <input type="text" name="budget" placeholder="Estimated Budget Range (e.g., $15K - $25K)" 
+                           class="w-full border-b-2 border-admiralnavy-900 focus:border-midastouch-500 bg-transparent py-3 placeholder-gray-500 focus:outline-none transition">
+                </div>
+
+                <div>
+                    <textarea name="details" rows="5" placeholder="Briefly describe your vision, location, and key deliverables..." required 
+                              class="w-full border-2 border-admiralnavy-900 focus:border-midastouch-500 bg-transparent p-4 rounded-lg focus:outline-none transition"></textarea>
+                </div>
+
+                <button type="submit" 
+                        class="w-full px-4 md:px-8 py-4 text-base md:text-xl font-bold uppercase tracking-wider 
+                               bg-midastouch-700 text-admiralnavy-900 rounded-full shadow-lg 
+                               hover:bg-midastouch-600 active:bg-midastouch-500 transition-all duration-300 cursor-pointer">
+                    Submit Consultation Request
+                </button>
+            </form>
+        </article>
       </section>
       <button id="backToTop" aria-label="Back To Top Button" class="block cursor-pointer opacity-0 fixed left-10 bottom-6 px-4 py-4 bg-admiralnavy-950 rounded-full shadow-lg hover:bg-admiralnavy-800 
       active:bg-admiralnavy-700 transition-allduration-300"><svg aria-hidden="true" class="w-6 h-6 md:w-8 md:h-8 fill-midastouch-50 text-center self-center"><use href="#arrowsUp"></use></svg></button>

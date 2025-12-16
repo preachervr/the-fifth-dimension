@@ -49,6 +49,6 @@
     width: max-content;
     animation: var(--animate-scroll);
   }
-  .animate-scroll:hover {
+.animate-scroll:hover {
     animation-play-state: paused;
-  }
+}
